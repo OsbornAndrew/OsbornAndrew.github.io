@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  background-color: black;
+  color: gray;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+nav {
+  padding-right: 10px;
+  display:flex;
+  justify-content: flex-end;
+} 
+a:link {
+  color: gray;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: white;
+}
+body {
+  background-color: grey;
+}
+h2, h4 {
+  margin: 10px;
+}
+
+.grey-text {
+  background-color: black;
+  color:grey;
+  display:flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.black-text {
+  display:flex;
+  justify-content: space-between;
+}
+form{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+p{
+  flex-direction: row;
+  padding: 5px;
+}
+@media (max-width: 700px) {
+  .grey-text{flex-direction: column;}
+  .black-text{flex-direction: column;}
+}
